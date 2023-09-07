@@ -1,6 +1,7 @@
-import { defineConfig } from "vite";
-import zipPack from "vite-plugin-zip-pack";
+import legacy from "@vitejs/plugin-legacy";
 import preact from "@preact/preset-vite";
+import zipPack from "vite-plugin-zip-pack";
+import { defineConfig } from "vite";
 
 import { readFileSync } from "node:fs";
 import * as toml from "toml";
@@ -52,6 +53,7 @@ function eruda(debug = undefined) {
 export default defineConfig({
   plugins: [
     preact(),
+    legacy({ renderModernChunks: false }),
     // @ts-ignore
     eruda(),
     zipPack({
