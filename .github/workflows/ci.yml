@@ -14,3 +14,4 @@ jobs:
       - run: npm install -g pnpm
       - run: pnpm i
       - run: pnpm check
+      - run: pnpm build

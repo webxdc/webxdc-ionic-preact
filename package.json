@@ -2,12 +2,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
     "start": "vite --port 3000",
-    "dev": "concurrently \"npm start\" \"webxdc-dev run http://localhost:3000\"",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "check": "tsc && npm run format:check"
+    "emulator": "concurrently \"npm start\" \"webxdc-dev run http://localhost:3000\"",
+    "build": "tsc && vite build",
+    "fix": "prettier --write .",
+    "check:format": "prettier --check .",
+    "check": "tsc && npm run check:format"
   },
   "dependencies": {
     "@ionic/react": "^7.8.6",

@@ -25,7 +25,7 @@ To test your work in your browser (with hot reloading!) while developing:
 ```
 pnpm start
 # Alternatively to test in a more advanced WebXDC emulator:
-pnpm dev
+pnpm emulator
 ```
 
 ### Building
