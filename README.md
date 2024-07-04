@@ -23,7 +23,7 @@ pnpm check
 To test your work in your browser (with hot reloading!) while developing:
 
 ```
-pnpm dev-mini
+pnpm start
 # Alternatively to test in a more advanced WebXDC emulator:
 pnpm dev
 ```
