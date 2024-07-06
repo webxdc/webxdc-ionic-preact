@@ -5,7 +5,7 @@ interface ContainerProps {}
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div id="container">
-      <strong>Ready to create an app?</strong>
+      <strong>Hello {window.webxdc.selfName}, ready to create an app?</strong>
       <p>Start with Ionic UI Components:</p>
       <p>https://ionicframework.com/docs/components</p>
     </div>

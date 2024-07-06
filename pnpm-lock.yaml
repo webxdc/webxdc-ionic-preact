@@ -53,7 +53,7 @@ importers:
         version: 0.17.0
       webxdc-vite-plugins:
         specifier: github:webxdc/webxdc-vite-plugins
-        version: https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/9c5fcf02eb585cb6970af46b82633f9a80229056(terser@5.19.2)(vite@4.5.3(@types/node@20.14.10)(terser@5.19.2))
+        version: https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/bc4dd1a9a74f8fe2a416790efdf2724492c17bc2(terser@5.19.2)(vite@4.5.3(@types/node@20.14.10)(terser@5.19.2))
 
 packages:
 
@@ -1904,9 +1904,9 @@ packages:
     resolution: {integrity: sha512-+NZHjIadGNrNfTjhaAcUUPxDwtaTEZ0ULnnz+Pl/v/3vAYs+fOOhjMaxKAI0YYf4oxgLVob0F5yjMI/tRr4SlQ==}
     hasBin: true
 
-  webxdc-vite-plugins@https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/9c5fcf02eb585cb6970af46b82633f9a80229056:
-    resolution: {tarball: https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/9c5fcf02eb585cb6970af46b82633f9a80229056}
-    version: 0.1.0
+  webxdc-vite-plugins@https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/bc4dd1a9a74f8fe2a416790efdf2724492c17bc2:
+    resolution: {tarball: https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/bc4dd1a9a74f8fe2a416790efdf2724492c17bc2}
+    version: 0.2.0
     peerDependencies:
       vite: ^4.0.0
 
@@ -4000,7 +4000,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  webxdc-vite-plugins@https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/9c5fcf02eb585cb6970af46b82633f9a80229056(terser@5.19.2)(vite@4.5.3(@types/node@20.14.10)(terser@5.19.2)):
+  webxdc-vite-plugins@https://codeload.github.com/webxdc/webxdc-vite-plugins/tar.gz/bc4dd1a9a74f8fe2a416790efdf2724492c17bc2(terser@5.19.2)(vite@4.5.3(@types/node@20.14.10)(terser@5.19.2)):
     dependencies:
       '@vitejs/plugin-legacy': 4.1.1(terser@5.19.2)(vite@4.5.3(@types/node@20.14.10)(terser@5.19.2))
       eruda: 3.0.1
